@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="nav">
+        <img id="logo" src="./logo_image/logo.svg" alt="">
+        <div class="search-bar">
+            <form action="#">
+                <input placeholder="Search for products, brands and more" type="search" name="" id="search">
+            </form>
+            <img id="search-logo" src="logo_image/search_svg.svg" alt="">
+        </div>
+        <input type="checkbox" id="toggle-hamburger" name="toggle-hamburger" class="toggle-hamburger">
+        <label for="toggle-hamburger" class="hamburgar">
+            <img src="./logo_image/hamburger.svg" class="ham-icon" alt="">
+            <img src="./logo_image/close.svg" class="close-icon" alt="">
+        </label>
+        <div class="button-list">
+            <button id="login-button">Login</button>
+            <select id="more-button">
+                <option value="">More</option>
+                <img id="drop-down-logo" src="./logo_image/dropdown.svg" alt="">
+                <option value="">Logout</option>
+                <option value="">Favorite</option>
+                <option value="">My Orders</option>
+            </select>
+
+            <button id="cart-button">
+                <img id="cart-logo" src="/logo_image/cart.svg" alt="">
+                Cart
+            </button>
+        </div>
+
+    </header>
+    <div class="category-bar">
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p1.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select class="mydropdown">
+                    <option value="">New Offers</option>
+                    <option value="">Today’s Deals</option>
+                    <option value="">Top Discounts</option>
+                    <option value="">Flash Sale</option>
+                    <option value="">Seasonal Offers</option>
+                    <option value="">Clearance Sale</option>
+                    <option value="">Buy 1 Get 1</option>
+                    <option value="">Bank Offers</option>
+                    <option value="">Limited Time Deals</option>
+                </select>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p2.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select class="mydropdown">
+                    <option value="">Mobiles</option>
+                    <option value="">Smartphones</option>
+                    <option value="">5G Mobiles</option>
+                    <option value="">Latest Launches</option>
+                    <option value="">Top Brands</option>
+                    <option value="">Under ₹10,000</option>
+                    <option value="">Under ₹15,000</option>
+                    <option value="">Under ₹20,000</option>
+                    <option value="">Best Sellers</option>
+                    <option value="">Refurbished Phones</option>
+                    <option value="">Mobile Accessories</option>
+                </select>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p3.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select name="" id="" class="mydropdown">
+                    <option value="">Fashion </option>
+                    <option value="">Men's Fashion</option>
+                    <option value="">Women's Fashion</option>
+                    <option value="">Kids's Fashion</option>
+                </select>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p4.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select class="mydropdown">
+                    <option value="">Headphones</option>
+                    <option value="">Wireless Headphones</option>
+                    <option value="">Bluetooth Earphones</option>
+                    <option value="">Neckband</option>
+                    <option value="">True Wireless (TWS)</option>
+                    <option value="">Wired Headphones</option>
+                    <option value="">Gaming Headsets</option>
+                    <option value="">Noise Cancelling</option>
+                    <option value="">Sports Earphones</option>
+                    <option value="">Top Brands</option>
+                </select>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p5.webp" alt="">
+            </div>
+            <div class="category-name">
+
+                <select name="" id="" class="mydropdown">
+                    <option value="">Electronics</option>
+                    <option value="">Television</option>
+                    <option value="">Fridge</option>
+                    <option value="">Washing Machine</option>
+                    <option value="">Microwave</option>
+                </select>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p6.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select class="mydropdown">
+                    <option value="">Furniture</option>
+                    <option value="">Sofas & Seating</option>
+                    <option value="">Beds & Mattresses</option>
+                    <option value="">Dining Furniture</option>
+                    <option value="">Wardrobes</option>
+                    <option value="">Tables & Desks</option>
+                    <option value="">Chairs & Stools</option>
+                    <option value="">Home Decor</option>
+                    <option value="">Office Furniture</option>
+                    <option value="">Outdoor Furniture</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p7.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select class="mydropdown">
+                    <option value="">Flight Bookings</option>
+                    <option value="">Domestic Flights</option>
+                    <option value="">International Flights</option>
+                    <option value="">One Way</option>
+                    <option value="">Round Trip</option>
+                    <option value="">Multi City</option>
+                    <option value="">Lowest Fares</option>
+                    <option value="">Last Minute Deals</option>
+                    <option value="">Student Offers</option>
+                    <option value="">Refundable Flights</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p8.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select name="" id="" class="mydropdown">
+                    <option value="">Toys</option>
+                    <option value="">Action Figures</option>
+                    <option value="">Dolls</option>
+                    <option value="">Soft Toys</option>
+                    <option value="">Toy Cars</option>
+                    <option value="">Remote Control Toys</option>
+                    <option value="">Building Blocks</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-image">
+                <img src="./category_image/p9.webp" alt="">
+            </div>
+            <div class="category-name">
+                <select class="mydropdown">
+                    <option value="">Grocery</option>
+                    <option value="">Fruits & Vegetables</option>
+                    <option value="">Dairy & Eggs</option>
+                    <option value="">Snacks & Beverages</option>
+                    <option value="">Staples</option>
+                    <option value="">Personal Care</option>
+                    <option value="">Household Essentials</option>
+                    <option value="">Baby Care</option>
+                    <option value="">Organic Products</option>
+                    <option value="">Cleaning Supplies</option>
+                </select>
+
+            </div>
+        </div>
+    </div>
+    <div class="product-home">
+        <div class="product-row-1">
+            <div class="product-list">
+                <div class="product-header">
+                    <div id="DOD">Deals of the Day
+                        <img id="clock-img" src="./logo_image/clock.svg" alt=""> <span id="time">22:07:36
+                            Left</span>
+                    </div>
+                    <div id="view-all">
+                        <button id="view-all-button"> VIEW ALL</button>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p1.webp" alt=""></div>
+                        <div class="product-name">Smart HD Mini Projector</div>
+                        <div class="product-discount">30% OFF</div>
+                        <div class="product-description">Portable Home Cinema</div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p2.webp" alt=""></div>
+                        <div class="product-name">Fitness Pro Smartwatch</div>
+                        <div class="product-discount">40% OFF</div>
+                        <div class="product-description">Fitness Activity Tracker</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p3.webp" alt=""></div>
+                        <div class="product-name">Canon EOS DSLR Camera</div>
+                        <div class="product-discount">10% OFF</div>
+                        <div class="product-description">Professional Photography Camera</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p4.webp" alt=""></div>
+                        <div class="product-name">Dell 24″ Full HD Monitor</div>
+                        <div class="product-discount">15% OFF</div>
+                        <div class="product-description">Full HD Display</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p5.webp" alt=""></div>
+                        <div class="product-name">Acer KA Series Monitor</div>
+                        <div class="product-discount">20% OFF</div>
+                        <div class="product-description">Sleek Office Monitor</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p6.webp" alt=""></div>
+                        <div class="product-name">OnePlus Wireless Earbuds</div>
+                        <div class="product-discount">10% OFF</div>
+                        <div class="product-description">Wireless Noise Isolation</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p7.webp" alt=""></div>
+                        <div class="product-name">All-in-One Inkjet Printer</div>
+                        <div class="product-discount">14% OFF</div>
+                        <div class="product-description">All-in-One Printer</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p1.webp" alt=""></div>
+                        <div class="product-name">Smart HD Mini Projector</div>
+                        <div class="product-discount">30% OFF</div>
+                        <div class="product-description">Portable Home Cinema</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p2.webp" alt=""></div>
+                        <div class="product-name">Fitness Pro Smartwatch</div>
+                        <div class="product-discount">40% OFF</div>
+                        <div class="product-description">Fitness Activity Tracker</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p3.webp" alt=""></div>
+                        <div class="product-name">Canon EOS DSLR Camera</div>
+                        <div class="product-discount">10% OFF</div>
+                        <div class="product-description">Professional Photography Camera</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p4.webp" alt=""></div>
+                        <div class="product-name">Dell 24″ Full HD Monitor</div>
+                        <div class="product-discount">15% OFF</div>
+                        <div class="product-description">Full HD Display</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p5.webp" alt=""></div>
+                        <div class="product-name">Acer KA Series Monitor</div>
+                        <div class="product-discount">20% OFF</div>
+                        <div class="product-description">Sleek Office Monitor</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p6.webp" alt=""></div>
+                        <div class="product-name">OnePlus Wireless Earbuds</div>
+                        <div class="product-discount">10% OFF</div>
+                        <div class="product-description">Wireless Noise Isolation</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images1/p7.webp" alt=""></div>
+                        <div class="product-name">All-in-One Inkjet Printer</div>
+                        <div class="product-discount">14% OFF</div>
+                        <div class="product-description">All-in-One Printer</div>
+                    </div>
+                </div>
+                <div id="right-arrow" onclick="this.previousElementSibling.scrollBy({left:400,behaviour:'smooth'})">
+                    <img src="./images1/right-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="advertisement">
+                <img id="ad-img" src="./images1/ad.webp" alt="">
+            </div>
+        </div>
+        <div class="product-row-2">
+            <div class="product-list">
+                <div class="product-header">
+                    <div id="DOD">
+                        <span>Music instruments</span>
+                        <span id="shop-now">Shop Now !</span>
+                    </div>
+                    <div id="view-all">
+                        <button id="view-all-button"> VIEW ALL</button>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images2/p1.webp" alt=""></div>
+                        <div class="product-name">Smart HD Mini Projector</div>
+                        <div class="product-discount">30% OFF</div>
+                        <div class="product-description">Portable Home Cinema</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images2/p2.webp" alt=""></div>
+                        <div class="product-name">Fitness Pro Smartwatch</div>
+                        <div class="product-discount">40% OFF</div>
+                        <div class="product-description">Fitness Activity Tracker</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images2/p3.webp" alt=""></div>
+                        <div class="product-name">Canon EOS DSLR Camera</div>
+                        <div class="product-discount">10% OFF</div>
+                        <div class="product-description">Professional Photography Camera</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images2/p4.webp" alt=""></div>
+                        <div class="product-name">Dell 24″ Full HD Monitor</div>
+                        <div class="product-discount">15% OFF</div>
+                        <div class="product-description">Full HD Display</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images2/p5.webp" alt=""></div>
+                        <div class="product-name">Acer KA Series Monitor</div>
+                        <div class="product-discount">20% OFF</div>
+                        <div class="product-description">Sleek Office Monitor</div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img"><img src="./images2/p6.webp" alt=""></div>
+                        <div class="product-name">Acer KA Series Monitor</div>
+                        <div class="product-discount">20% OFF</div>
+                        <div class="product-description">Sleek Office Monitor</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
